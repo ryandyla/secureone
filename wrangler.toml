@@ -1,0 +1,14 @@
+# wrangler.toml
+name = "secureone"
+main = "worker.js"
+compatibility_date = "2025-10-21"
+workers_dev = true
+
+# Optional: if you plan to use KV idempotency
+# [[kv_namespaces]]
+# binding = "FLOW_GUARD"
+# id = "your_kv_namespace_id"
+
+# Optional: inline default board id
+# [vars]
+# MONDAY_DEFAULT_BOARD_ID = "9729411524"
